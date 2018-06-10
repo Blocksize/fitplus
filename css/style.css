@@ -11,7 +11,43 @@ p {
     font-size: 16px;
 }
 
-/* Header */
+
+/* -------  All CSS -------- */
+
+.section-title {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
+.section-title p {
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+
+}
+
+/* ------- Header --------- */
 .header {
     background-image: url("../img/header-bg.jpg");
     background-attachment: fixed;
@@ -35,7 +71,7 @@ p {
 }
 .header-text p {
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 28px;
     font-weight: 300;
 }
@@ -79,10 +115,61 @@ p {
     transition: all 1s;
 
 }
+.btn-tour:hover {
+    color: #fff;
+}
+.btn-tour i {
+    font-size: 29px;
+    padding-left: 5px;
+    color: #129CF3;
+}
+
 .header-iphone img{
     width: 100%
 }
-/* Testimonial */
+
+/* --------- About us ----------- */
+
+.choose-us-wraper {
+    padding-top: 50px;
+}
+
+.about-iphone img {
+    margin-top: 8px;
+
+}
+
+.choose-us-title {
+    padding-bottom: 50px;
+}
+
+.choose-us-title h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+
+.choose-us-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    background-color: #129CF3;
+
+}
+.choose-us-title p {
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+/* ---------- Testimonial ------------ */
 
 .testimonial {
     background-image: url("../img/testimonial-bg.jpg");
@@ -124,5 +211,78 @@ p {
     padding-top: 50px;
 }
 
+/* ------- Features -------- */
 
-Alle
+.features-inner-wrapper {
+
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+}
+.left-feature-item {
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;
+
+}
+.left-feature.item-icon {
+    position: absolute;
+    right: 0;
+    top: -8px;
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+.left-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+
+}
+.left-feature-item p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 28px;
+}
+.feature-iphone img{
+    width: 100%;
+}
+.right-feature-item {
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: left;
+    margin-top: 35px;
+}
+.right-feature-item-icon {
+    position: absolute;
+    left: 0;
+    top: -8px;
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.right-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+
+}
+.right-feature-item p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px
+}
