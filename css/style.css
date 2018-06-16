@@ -49,15 +49,15 @@ p {
 
 /* ------- Header --------- */
 .header {
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/header-bg.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 60% 60%;
     background-size: cover;
 
 }
 .header-overlay {
-    background-color: rgba(31,31,31,0.55);
+    background-color: rgba(31,31,31,0.10);
 }
 .logo {
     padding-bottom: 50px;
